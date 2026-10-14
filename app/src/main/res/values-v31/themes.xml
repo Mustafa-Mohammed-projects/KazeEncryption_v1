@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 12+: system splash is black and icon-less, so only our 3s splash is visible -->
+    <style name="Theme.Kaze.Splash" parent="Theme.Kaze">
+        <item name="android:windowBackground">@color/kaze_black</item>
+        <item name="android:statusBarColor">@color/kaze_black</item>
+        <item name="android:navigationBarColor">@color/kaze_black</item>
+        <item name="android:windowSplashScreenBackground">@color/kaze_black</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_blank</item>
+    </style>
+</resources>

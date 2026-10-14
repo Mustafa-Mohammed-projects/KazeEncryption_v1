@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Kaze" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/kaze_brass</item>
+        <item name="colorOnPrimary">@color/kaze_on_brass</item>
+        <item name="colorSurface">@color/kaze_surface</item>
+        <item name="colorOnSurface">@color/kaze_text</item>
+        <item name="colorSurfaceVariant">@color/kaze_surface2</item>
+        <item name="colorOnSurfaceVariant">@color/kaze_text_dim</item>
+        <item name="colorOutline">@color/kaze_stroke</item>
+        <item name="colorError">@color/kaze_err</item>
+        <item name="android:windowBackground">@color/kaze_bg</item>
+        <item name="android:statusBarColor">@color/kaze_bg</item>
+        <item name="android:navigationBarColor">@color/kaze_bg</item>
+        <item name="textInputStyle">@style/Widget.Kaze.Input</item>
+    </style>
+
+    <!-- Pure black splash (also prevents a white flash before the first frame) -->
+    <style name="Theme.Kaze.Splash" parent="Theme.Kaze">
+        <item name="android:windowBackground">@color/kaze_black</item>
+        <item name="android:statusBarColor">@color/kaze_black</item>
+        <item name="android:navigationBarColor">@color/kaze_black</item>
+    </style>
+
+    <style name="Widget.Kaze.Segment" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="backgroundTint">@color/seg_bg</item>
+        <item name="android:textColor">@color/seg_text</item>
+        <item name="iconTint">@color/seg_text</item>
+        <item name="strokeColor">@color/seg_stroke</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="Widget.Kaze.Card" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@color/kaze_surface</item>
+        <item name="strokeColor">@color/kaze_stroke</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="Widget.Kaze.Input" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">14dp</item>
+        <item name="boxCornerRadiusTopEnd">14dp</item>
+        <item name="boxCornerRadiusBottomStart">14dp</item>
+        <item name="boxCornerRadiusBottomEnd">14dp</item>
+        <item name="boxBackgroundColor">@color/kaze_surface</item>
+        <item name="boxStrokeColor">@color/input_stroke</item>
+        <item name="hintTextColor">@color/kaze_brass</item>
+        <item name="endIconTint">@color/kaze_text_dim</item>
+    </style>
+
+    <style name="Widget.Kaze.Action" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/kaze_brass</item>
+        <item name="android:textColor">@color/kaze_on_brass</item>
+        <item name="iconTint">@color/kaze_on_brass</item>
+        <item name="cornerRadius">18dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>

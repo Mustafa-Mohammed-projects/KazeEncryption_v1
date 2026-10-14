@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="kaze_black">#000000</color>
+    <color name="kaze_bg">#0B0E14</color>
+    <color name="kaze_surface">#121722</color>
+    <color name="kaze_surface2">#1A2030</color>
+    <color name="kaze_stroke">#263044</color>
+    <color name="kaze_brass">#E8B65A</color>
+    <color name="kaze_on_brass">#1B1300</color>
+    <color name="kaze_text">#EEF1F6</color>
+    <color name="kaze_text_dim">#8E98AD</color>
+    <color name="kaze_ok">#5BD6A0</color>
+    <color name="kaze_err">#FF6B6B</color>
+</resources>
